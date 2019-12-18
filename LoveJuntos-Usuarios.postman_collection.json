@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "36d1308f-19d2-4958-9012-c743808d23f0",
+		"name": "LoveJuntos/Usuarios",
+		"description": "Projeto Reprograma LoveJuntos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/ListarUsuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "ProjetoFinal Reprograma"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/cadastroUsuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Cadastro dos usuarios"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/AtualizarUmDeterminadoUsuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Edição de dados do usuario"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/ListarUmDeterminadoUsuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Listar usuario por id."
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/DeletarUmUsuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Remover usuario"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "d1900a16-5d06-4b9c-842a-cdf44210eb15",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "68fd1ee3-68a9-470c-aca2-215846535fb6",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

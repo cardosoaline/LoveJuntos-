@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "f273c2ff-acfb-4750-be4c-e89d787b7ae7",
+		"name": "LoveJuntos/Entidades",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/cadastroentidades",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:300/listar entidades",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/listarUmaEntidade",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Requisição de uma entidade"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/AtualizarEntidades",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Atualização das organizações"
+			},
+			"response": []
+		},
+		{
+			"name": "locahost:300/RemoverEntidade",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Remover Organização"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
